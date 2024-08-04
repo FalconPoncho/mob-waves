@@ -1,0 +1,153 @@
+{
+    "condition": "minecraft:all_of",
+    "terms": [
+      {
+        "condition": "minecraft:reference",
+        "name": "yeetfire:wearing_skull"
+      },
+      {
+        "condition": "minecraft:any_of",
+        "terms": [
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 1
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "armor.head": {
+                      "predicates": {
+                        "minecraft:enchantments": [
+                          {
+                            "enchantments": "yeetfire:danger",
+                            "levels": 5
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.4
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "armor.head": {
+                      "predicates": {
+                        "minecraft:enchantments": [
+                          {
+                            "enchantments": "yeetfire:danger",
+                            "levels": 4
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.2
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "armor.head": {
+                      "predicates": {
+                        "minecraft:enchantments": [
+                          {
+                            "enchantments":"yeetfire:danger",
+                            "levels": 3
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.1
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "armor.head": {
+                      "predicates": {
+                        "minecraft:enchantments": [
+                          {
+                            "enchantments":"yeetfire:danger",
+                            "levels": 2
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "condition": "minecraft:all_of",
+            "terms": [
+              {
+                "condition": "minecraft:random_chance",
+                "chance": 0.05
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "slots": {
+                    "armor.head": {
+                      "predicates": {
+                        "minecraft:enchantments": [
+                          {
+                            "enchantments":"yeetfire:danger",
+                            "levels": 1
+                          }
+                        ]
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.01
+          }
+        ]
+      }
+    ]
+  }
