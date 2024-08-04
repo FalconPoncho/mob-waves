@@ -1,0 +1,1 @@
+tellraw @s ["",{"text":"Choose your class:\n"},{"text":"Example Class","clickEvent":{"action":"run_command","value":"/trigger class set 1"},"hoverEvent":{"action":"show_text","contents":"Description of the example class."}},{"text":"\n "}]
