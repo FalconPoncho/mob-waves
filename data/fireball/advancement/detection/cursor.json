@@ -1,0 +1,47 @@
+{
+    "criteria": {
+      "criterion": {
+        "trigger": "minecraft:tick",
+        "conditions": {
+          "player": [
+            {
+                "condition": "minecraft:all_of",
+                "terms": [
+                {
+                    "condition": "minecraft:inverted",
+                    "term": {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                        "slots": {
+                        "player.cursor": {
+                            "components": {
+                            "minecraft:custom_data": "{FireCharge:1b}"
+                            }
+                        }
+                        }
+                    }
+                    }
+                },
+                {
+                    "condition": "minecraft:entity_properties",
+                    "entity": "this",
+                    "predicate": {
+                    "slots": {
+                        "player.cursor": {
+                        "items": "minecraft:fire_charge"
+                        }
+                    }
+                    }
+                }
+                ]
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "yeetfire:detection/cursor"
+    },
+    "sends_telemetry_event": false
+  }

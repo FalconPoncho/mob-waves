@@ -1,0 +1,19 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:using_item",
+        "conditions": {
+          "player": [],
+          "item": {
+            "items": [
+              "minecraft:fire_charge"
+            ]
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "yeetfire:fire_charge"
+    },
+    "sends_telemetry_event": false
+  }

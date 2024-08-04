@@ -1,0 +1,72 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "weapon.mainhand": {
+            "items": "minecraft:firework_star",
+            "components": {
+              "minecraft:custom_data": "{GhastFireball:1b}"
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "weapon.mainhand": {
+            "items": "minecraft:firework_star",
+            "components": {
+              "minecraft:custom_data": "{DragonFireball:1b}"
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "weapon.mainhand": {
+            "items": "minecraft:firework_star",
+            "components": {
+              "minecraft:custom_data": "{BlueWitherSkull:1b}"
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "weapon.mainhand": {
+            "items": "minecraft:firework_star",
+            "components": {
+              "minecraft:custom_data": "{WitherSkull:1b}"
+            }
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "weapon.mainhand": {
+            "items": "minecraft:fire_charge"
+          }
+        }
+      }
+    }
+  ]
+}

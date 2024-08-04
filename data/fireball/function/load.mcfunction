@@ -1,0 +1,1 @@
+scoreboard objectives add yeetfire.cooldown dummy
