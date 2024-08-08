@@ -5,6 +5,7 @@ scoreboard players set class_menu variable 1
 function menu:setup
 function yeetfire:setup
 function kit:setup
+function wave:setup
 
 function menu:class
 
