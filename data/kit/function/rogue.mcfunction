@@ -7,7 +7,8 @@
 #item replace entity @s hotbar.0 with iron_sword[enchantments={"kit:dagger":1}]
 item replace entity @s hotbar.0 with iron_sword[custom_name='{"italic":false,"text":"Dagger"}',item_name='"dagger"',unbreakable={show_in_tooltip:false},fire_resistant={},attribute_modifiers={modifiers:[{id:"entity_interaction_range",type:"player.entity_interaction_range",amount:-1.5,operation:"add_value",slot:"mainhand"},{id:"block_interaction_range",type:"player.block_interaction_range",amount:-1.5,operation:"add_value",slot:"mainhand"},{id:"attack_knockback",type:"generic.attack_knockback",amount:-1,operation:"add_value",slot:"mainhand"},{id:"attack_damage",type:"generic.attack_damage",amount:4,operation:"add_value",slot:"mainhand"}],show_in_tooltip:false}]
 # Crossbow
-item replace entity @s hotbar.1 with crossbow
+item replace entity @s hotbar.1 with crossbow[unbreakable={show_in_tooltip:false},fire_resistant={},enchantments={levels:{"minecraft:infinity":1},show_in_tooltip:false},enchantment_glint_override=false,charged_projectiles=[{id:"minecraft:arrow",count:1,components:{"minecraft:intangible_projectile":{}}}]]
+item replace entity @s inventory.0 with arrow
 # Weak Armor/Low Health
 item replace entity @s armor.head with leather_helmet[unbreakable={show_in_tooltip:false},enchantments={levels:{"minecraft:binding_curse":1},show_in_tooltip:false},enchantment_glint_override=false,dyed_color={rgb:3289650,show_in_tooltip:false},trim={material:"minecraft:netherite",pattern:"minecraft:silence",show_in_tooltip:false}]
 item replace entity @s armor.chest with leather_chestplate[unbreakable={show_in_tooltip:false},enchantments={levels:{"minecraft:binding_curse":1},show_in_tooltip:false},enchantment_glint_override=false,dyed_color={rgb:3289650,show_in_tooltip:false},trim={material:"minecraft:netherite",pattern:"minecraft:silence",show_in_tooltip:false}]
